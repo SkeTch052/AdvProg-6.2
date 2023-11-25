@@ -4,12 +4,12 @@
 #include <algorithm>
 
 int main() {
-    int user_numbers;
+    int count_of_numbers;
     std::cout << "[IN]" << std::endl;
-    std::cin >> user_numbers;
+    std::cin >> count_of_numbers;
 
     std::set<int> set_of_numbers;
-    for (int i = 0; i < user_numbers; i++) {
+    for (int i = 0; i < count_of_numbers; i++) {
         int num;
         std::cin >> num;
         set_of_numbers.insert(num);
